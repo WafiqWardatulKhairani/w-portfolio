@@ -2,8 +2,6 @@
 
 @section('content')
 
-<h1>About Me</h1>
-
-<p>Saya adalah mahasiswa Informatika.</p>
+<p>This Page will Available soon😙🫰</p>
 
 @endsection

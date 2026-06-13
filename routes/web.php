@@ -10,6 +10,9 @@ use App\Http\Controllers\ProjectController\ProjectController;
 Route::get('/private/projects', [ProjectController::class, 'index']);
 Route::get('/private/projects/create', [ProjectController::class, 'create']);
 Route::post('/private/projects', [ProjectController::class, 'store']);
+Route::get('/private/projects/{project}', [ProjectController::class, 'edit']);
+Route::put('/private/projects/{project}', [ProjectController::class, 'update']);
+Route::delete('/private/projects/{project}', [ProjectController::class, 'destroy']);
 
 
 //Public Area

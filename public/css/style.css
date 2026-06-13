@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100%;
+}
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'sans-serif';
     background: #f5f7fb;
     color:#1f2937;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 
 .container{
@@ -90,3 +96,4 @@ body{
 
     color:#666;
 }
+
