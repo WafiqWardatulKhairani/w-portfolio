@@ -1,17 +1,23 @@
 @extends ('layouts.app')
 @section('content')
 
-<h1>PORTFOLIO </h1>
+<section class="hero">
 
-{{$nama}}
+    <h1>Hi, I'm Wafiq 👋</h1>
 
-<div class="">
+<div class="project-card">
     @foreach ($projects as $project)
 
-    <h3>{{$project ['nama']}}</h3>
-    <p>{{$project ['tahun']}}</p>
-    <p>{{$project ['status']}}</p>
+    <h3>{{$project ['project_name']}}</h3>
+    <p>{{$project ['year']}}</p>
+    <p>{{$project ['role']}}</p>
+    <p>{{$project ['contribution_status']}}</p>
+    <p>{{$project ['description']}}</p>
+    <p>{{$project ['github_url']}}</p>
+    <p>{{$project ['demo_url']}}</p>
+    <p>{{$project ['is_featured']}}</p>
 
     @endforeach
 </div>
 @endsection
+</section>

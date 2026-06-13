@@ -1,3 +1,3 @@
-<hr>
-<p> Copyright © 2026 Wafiq</p>
-</hr>
+<footer class="footer">
+    Copyright © 2026 Wafiq
+</footer>
